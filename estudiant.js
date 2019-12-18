@@ -17,6 +17,7 @@ function Porcentaje(){
     //let mensaje;
     //mensaje=("Asistieron "+datoMujeres+ " mujeres al curso, que corresponde al " +porcentMujeres+ " % de las asistencias totales")
     // PENE
+    // AIUDAME QUE TENGO MUCHOS QUERECERES
 }
 
 Porcentaje();
