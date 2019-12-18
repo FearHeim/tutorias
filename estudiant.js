@@ -1,4 +1,4 @@
-//Pagina inicial
+//Pagina de porcentaje
 let datoMujeres;
 let datoHombres;
 let TotalPorcentaje;
