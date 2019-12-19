@@ -8,36 +8,41 @@
     <script src="estudiant.js"></script>
 </head>
 <style>
+    .globalwidth{
+        width: 100%;
+    }
     body{
         margin: 0px;
         background-color: #BEBEBE;
     }
-    header{
+    .header{
         background-color: #000000;
         width: 100%;
         height: 100px;
     }
-    header img{
+    .header img{
         width: 75px;
         margin-top: 10px;
         margin-left: 10px;
     }
-    footer{
+    .footer{
         background-color: #000000;
         width: 100%;
         height: 100px;
     }
 </style>
 <body>
-    <header>
-        <img src="archivos/logo-u.png" alt="">
+    <header class="header globalwidth">
+        <a href="https://www.uleam.edu.ec">
+            <img src="archivos/logo-u.png" alt="">
+        </a>
     </header>
     <form>
             <input type="text" id="id1"><br>
             <input type="text" id="id2"><br>
             <input type="submit">
     </form>
-    <footer>
+    <footer class="footer globalwidth">
 
     </footer>
     
