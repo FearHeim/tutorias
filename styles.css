@@ -91,7 +91,8 @@ body{
 
 .carrusel{
     width: 100%;
-    /*overflow: scroll;*/
+    overflow: scroll;
+    overflow: hidden;
     padding: 30px;
     position: relative;
 }
