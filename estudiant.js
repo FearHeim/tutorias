@@ -1,5 +1,6 @@
 //Pagina de porcentaje
-require; 
+//require; 
+
 let datoMujeres;
 let datoHombres;
 let TotalPorcentaje;
