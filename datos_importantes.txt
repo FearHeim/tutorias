@@ -2,3 +2,8 @@ https://www.tutorialesprogramacionya.com/javascriptya/nodejsya/index.php?inicio=
 
 //Guia de Express y Node
     https://www.youtube.com/watch?v=G8uL0lFFoN0
+
+    //Login y sign up 
+    https://getbuzz.io/c/learning-expressjs/stories/Learn-how-to-implement-user-sign-up-and-login-using-PassportJS-1-6559772519
+    
+    
