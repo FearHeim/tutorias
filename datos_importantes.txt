@@ -5,5 +5,14 @@ https://www.tutorialesprogramacionya.com/javascriptya/nodejsya/index.php?inicio=
 
     //Login y sign up 
     https://getbuzz.io/c/learning-expressjs/stories/Learn-how-to-implement-user-sign-up-and-login-using-PassportJS-1-6559772519
+
+
+main.html es el html de la pagina principal
+
+porcent.html es un html que se planea usar para mostrar los porcentajes de los alumnos que asistieron, se busca mostrar con grafica
+
+ventanapdf.html es donde se mostraran los pdf subidos por el usuario
+
+En estudiant.js solo esta la funcion para mostrar los porcentajes
     
     
