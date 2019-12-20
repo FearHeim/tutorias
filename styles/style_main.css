@@ -145,7 +145,8 @@ body{
     width: 100%;
     overflow: scroll;
     scrollbar-color: black;
-    padding: 30px;
+    padding-top: 70px;
+    padding-left: 10px;
     position: relative;
     /*margin-top: 50px;*/
 }
