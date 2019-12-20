@@ -1,3 +1,4 @@
+
 body{
     margin: 0px;
     background-color: #000000;
@@ -123,6 +124,7 @@ body{
     cursor: pointer;
     transition: 450ms;
     transform-origin: center left;
+    position: relative;
 }
 
 .carrusel__item:hover ~ .carrusel__item{
@@ -135,9 +137,49 @@ body{
     transform: scale(1.5);
     opacity: 1;
 }
+.carrusel__item--img{
+    width: 200px;
+    height: 250px;
+}
+.carrusel__item--detalle{
+    /*background: linear-gradient(to top, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);*/
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 10px;
+    opacity: 1;
+    transition: 450ms opacity;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    
 
+}
+
+.section__detalle{
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: small;
+}
 .footer{
     background-color: #000000;
     height: 100px;
     width: 100%;
+    display: flex;
+    align-items: center;
+}
+p{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.footer a{
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    padding-left: 30px;
+    text-decoration: none;
+}
+.footer a:hover{
+    text-decoration: underline;
 }
