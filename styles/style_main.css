@@ -71,7 +71,11 @@ body{
 }
 
 .main{
-    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 200px;
 }
 
 .main__title{
@@ -96,18 +100,61 @@ body{
     color: white;
 }
 
+.seccion_cursos{
+    color: white;
+    position: absolute;
+    padding-left: 30px;
+    width: 100%;
+}
+
+.nuevo_curso{
+    font-size: 13px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}   
+.nuevo_curso h2{
+    color: white;
+    text-decoration: none;
+
+
+}
+.nuevo_curso a{
+    color: white;
+    text-decoration: none;
+    
+
+}
+
+
+.nuevo_curso a:hover{
+    text-decoration: underline;
+    
+}
+.nuevo_curso--img{
+    margin-right: 8px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-left: 65px;
+}
+
 .carrusel{
     width: 100%;
     overflow: scroll;
+    scrollbar-color: black;
     padding: 30px;
     position: relative;
-    margin-top: 50px;
+    /*margin-top: 50px;*/
 }
 
 .carrusel__container{
     white-space: nowrap;
-    margin: 70px, 0px;
+    margin: 10px, 0px;
     padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .carrusel__item{
@@ -154,7 +201,15 @@ body{
     
 
 }
-
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background: #000000;
+}
+::-webkit-scrollbar-thumb{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+}
 .section__detalle{
     font-family: 'Ubuntu', sans-serif;
     text-decoration: none;
@@ -171,16 +226,6 @@ body{
 p{
     font-family: 'Ubuntu', sans-serif;
 
-}
-
-::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
-    background: #000000;
-}
-::-webkit-scrollbar-thumb{
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 12px;
 }
 .footer a{
     color: white;
