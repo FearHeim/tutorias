@@ -13,6 +13,8 @@ porcent.html es un html que se planea usar para mostrar los porcentajes de los a
 
 ventanapdf.html es donde se mostraran los pdf subidos por el usuario
 
+login.html se loguea con cedula y contraseña
+
 En estudiant.js solo esta la funcion para mostrar los porcentajes
     
     
