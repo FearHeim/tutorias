@@ -238,26 +238,4 @@ p{
 .footer a:hover{
     text-decoration: underline;
 }
-@media only screen and (max-width: 600px){
-    
-    .header__menu--profile{
-        margin-right: -50px;
-        display: flex;
-        margin-top: 20px;
-    }
-    .header__menu--profile img{
-        margin-right: 5px;
-        height: 50px;
-        margin-bottom: 10px;
-    }
-    .header__menu ul{
-        display: none;
-        list-style: none;
-        padding: 0px;
-        position: absolute;
-        width: 100px;
-        text-align: right;
-        margin: 0px 0px 0px 10px;
-    
-    }
-}
+ 
