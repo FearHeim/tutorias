@@ -1,4 +1,4 @@
-.save{
+.curso__main{
     background: linear-gradient(#000000);
     display: flex;
     align-items: center;
@@ -7,7 +7,7 @@
     padding: 0px 30px;
     min-height: calc(100vh - 200px);
 }
-.save__container{
+.curso__main__container{
     margin-top: 20px;
     color: white;
     background-color: rgba(255, 255, 255, 0.1);
@@ -20,31 +20,46 @@
     justify-content: space-around;
     flex-direction: column;
     margin-bottom: 20px;
+    margin-left: 100px;
 }
-
-.save__container--form{
+.curso__main__container2{
+    margin-top: 20px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    border-radius: 40px;
+    padding: 60px 68px 40px;
+    min-height: 400px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-left: -300px;
+}
+.curso__main__container--form{
     display: flex;
     flex-direction: column;
 }
-.save__container--form label{
+.curso__main__container--form label{
     font-size: 14px;
 }
-.save__container--recordar{
+.curso__main__container--recordar{
     color: white;
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
 }
 
-.save__container--recordar a{
+.curso__main__container--recordar a{
     color: white;
     font-size: 14px;
     text-decoration: none;
 }
-.save__container--recordar a:hover{
+.curso__main__container--recordar a:hover{
     text-decoration: underline;
 }
-.inputdato1{
+.divdato1{
     color: white;
     background-color: transparent;
     border-left: 0px;
@@ -59,7 +74,7 @@
     height: 50px;
 
 }
-.inputdato2{
+.divdato2{
     color: white;
     background-color: transparent;
     border-left: 0px;
@@ -92,7 +107,7 @@
     color: white;
 
 }
-.save__principal{
+.curso__main__principal{
     white-space: wrap;
     margin: 10px, 0px;
     padding-bottom: 10px;
@@ -112,23 +127,17 @@
     letter-spacing: 1px;
     margin: 10px 0;
 }
-.save__main{
+.curso__main__main{
     color: white;
     display: flex;
     
 }
 
+section{
+    display: flex;
+}
 
-    
-
-
-@media only screen and (max-width: 600px){
-    .save__container{
-        background-color: transparent;
-        border: none;
-        padding: 0;
-        width: 100%;
-    }
-
-    
+main, aside{
+    width: 50%;
+    color: white;
 }

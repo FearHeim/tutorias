@@ -24,40 +24,4 @@ En estudiant.js solo esta la funcion para mostrar los porcentajes
 
 
 
-    <section class="save_principal"></section>
-    <section class="save">
-        <section class="save__container">
-            <h2>
-                Inicio de Sesión
-            </h2>
-            <form class="save__container--form" action="">
-                <input class="inputsave" type="text" placeholder="Cédula">
-                <input class="inputcontra" type="password" placeholder="Contraseña">
-                <button class="button">Iniciar sesión</button>
-                <div class="save__container--recordar">
-                    <label>
-                        <input type="checkbox" name="" id="cbox1" value="checkbox">Recuérdame
-                    </label>
-                    <a href="/">Olvidé mi contraseña</a>
-                </div>
-            </form>
-        </section>
-    </section>
-    <section class="save">
-        <section class="save__container">
-            <h2>
-                Inicio de Sesión
-            </h2>
-            <form class="save__container--form" action="">
-                <input class="inputsave" type="text" placeholder="Cédula">
-                <input class="inputcontra" type="password" placeholder="Contraseña">
-                <button class="button">Iniciar sesión</button>
-                <div class="save__container--recordar">
-                    <label>
-                        <input type="checkbox" name="" id="cbox1" value="checkbox">Recuérdame
-                    </label>
-                    <a href="/">Olvidé mi contraseña</a>
-                </div>
-            </form>
-        </section>
-    </section>
+   
