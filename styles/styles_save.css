@@ -20,6 +20,22 @@
     justify-content: space-around;
     flex-direction: column;
     margin-bottom: 20px;
+    margin-left: 100px;
+}
+.save__container2{
+    margin-top: 20px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    border-radius: 40px;
+    padding: 60px 68px 40px;
+    min-height: 400px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-left: -300px;
 }
 .save__container--form{
     display: flex;
@@ -43,7 +59,7 @@
 .save__container--recordar a:hover{
     text-decoration: underline;
 }
-.inputsave{
+.inputdato1{
     color: white;
     background-color: transparent;
     border-left: 0px;
@@ -58,7 +74,7 @@
     height: 50px;
 
 }
-.inputcontra{
+.inputdato2{
     color: white;
     background-color: transparent;
     border-left: 0px;
@@ -71,8 +87,22 @@
     padding: 0 15px;
     outline: none;
     height: 50px;
-
 }
+.guardar{
+    color: white;
+    background-color: transparent;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 15px;
+    padding: 0 15px;
+    outline: none;
+    height: 50px;
+}
+
+
 ::placeholder{
     color: white;
 
@@ -97,6 +127,23 @@
     letter-spacing: 1px;
     margin: 10px 0;
 }
+.save__main{
+    color: white;
+    display: flex;
+    
+}
+
+section{
+    display: flex;
+}
+
+main, aside{
+    width: 50%;
+    color: white;
+}
+
+
+
 @media only screen and (max-width: 600px){
     .save__container{
         background-color: transparent;
