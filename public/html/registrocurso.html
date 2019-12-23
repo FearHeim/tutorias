@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/style_registro.css">
+    <title>Registro de Cursos</title>
+    <script src="estudiant.js"></script>
+    <link rel="stylesheet" href="/styles/styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="https://www.uleam.edu.ec">
+            <img class="header__img" src="/archivos/logo-u.png" alt="">
+        </a>
+        <div class="header__menu">
+            <div class="header__menu--profile">
+                <img src="/archivos/icons8-perfil-de-gato-100.png" alt="Usuario">
+                <p>Usuario</p>
+            </div>
+            <ul>
+                <li class="li1"><a href="/">Cuenta</a></li>
+                <li class="li2"><a href="/">Cerrar Sesión</a></li>
+            </ul>
+        </div>
+        
+    </header>
+    <section class="registroCurso">
+        <section class="registroCurso__container">
+            <h2>
+                Registrar cursos
+            </h2>
+            <form class="registroCurso__container--form" action="">
+                
+                    <select class="registroCurso__select" type="select" id="cursos">   
+                        <option value="Primero">Primero</option>
+                        <option value="Segundo">Segundo</option>
+                        <option value="Tercero">Tercero</option>
+                        <option value="Cuarto">Cuarto</option>
+                        <option value="Quinto">Quinto</option>
+                        <option value="Sexto">Sexto</option>
+                        <option value="Séptimo">Séptimo</option>
+                        <option value="Octavo">Octavo</option>
+                        <option value="Noveno">Noveno</option>
+                        <option value="Décimo">Décimo</option>         
+                    </select>
+                    <select class="registroCurso__select" type="select" id="paralelos">   
+                        <option value="Primero">A</option>
+                        <option value="Segundo">B</option>
+                        <option value="Tercero">C</option>
+                        <option value="Cuarto">D</option>
+                                
+                    </select>
+                    <select class="registroCurso__select" type="select" id="carrera">   
+                        <option value="Segundo">Ingenieria en Sistemas</option>    
+                        <option value="Primero">TICS</option>
+   
+                    </select>
+            <button class="button">Guardar curso</button>
+                
+            </form>
+        </section>
+    </section>
+    
+</body>
+
+</html>

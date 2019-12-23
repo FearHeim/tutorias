@@ -1,0 +1,241 @@
+
+body{
+    margin: 0px;
+    background-color: #000000;
+    font-family: 'Ubuntu', sans-serif;
+}
+.header{
+    background-color: #000000;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.header__img{
+    width: 75px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.header__menu{
+    margin-right: 30px;
+
+}
+.header__menu ul{
+    display: none;
+    list-style: none;
+    padding: 0px;
+    position: absolute;
+    width: 100px;
+    text-align: right;
+    margin: 0px 0px 0px 16px;
+
+}
+.header__menu:hover ul, ul:hover{
+    display: block;
+}
+.header__menu ul li {
+    margin: 10px, 0px;
+}
+.li1{
+    margin-bottom: 10px;
+}
+.li2{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.header__menu li a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    
+} 
+.header__menu li a:hover{
+    text-decoration: underline;
+    
+}
+
+.header__menu--profile{
+    margin-right: 8px;
+    display: flex;
+    margin-top: 20px;
+}
+.header__menu--profile img{
+    margin-right: 8px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.header__menu--profile p{
+    color: white;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 200px;
+}
+
+.main__title{
+    color: white;
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.input{
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    color: white;
+    border-radius: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    height: 50px;
+    padding: 0px 20px;
+    width: 70%;
+}
+::placeholder{
+    color: white;
+}
+
+.seccion_cursos{
+    color: white;
+    position: absolute;
+    padding-left: 30px;
+    width: 100%;
+}
+
+.nuevo_curso{
+    font-size: 13px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}   
+.nuevo_curso h2{
+    color: white;
+    text-decoration: none;
+
+
+}
+.nuevo_curso a{
+    color: white;
+    text-decoration: none;
+    
+
+}
+
+
+.nuevo_curso a:hover{
+    text-decoration: underline;
+    
+}
+.nuevo_curso--img{
+    margin-right: 8px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-left: 65px;
+}
+
+.carrusel{
+    width: 100%;
+    overflow: scroll;
+    scrollbar-color: black;
+    padding-top: 70px;
+    padding-left: 10px;
+    position: relative;
+    /*margin-top: 50px;*/
+}
+
+.carrusel__container{
+    white-space: nowrap;
+    margin: 10px, 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.carrusel__item{
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-right: 10px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    display: inline-block;
+    cursor: pointer;
+    transition: 450ms;
+    transform-origin: center left;
+    position: relative;
+}
+
+.carrusel__item:hover ~ .carrusel__item{
+    transform: translate3d(100px, 0, 0);
+}
+.carrusel__item:hover ~ .carrusel__item{
+    opacity: 1;
+}
+.carrusel__container:hover .carrusel__item:hover{
+    transform: scale(1.5);
+    opacity: 1;
+}
+.carrusel__item--img{
+    width: 200px;
+    height: 250px;
+}
+.carrusel__item--detalle{
+    /*background: linear-gradient(to top, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);*/
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 10px;
+    opacity: 1;
+    transition: 450ms opacity;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    
+
+}
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background: #000000;
+}
+::-webkit-scrollbar-thumb{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+}
+.section__detalle{
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: small;
+}
+.footer{
+    background-color: #000000;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+p{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.footer a{
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    padding-left: 16px;
+    text-decoration: none;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+ 
