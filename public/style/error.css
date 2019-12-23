@@ -36,6 +36,9 @@ p{
     animation-fill-mode: both;
     animation-iteration-count: infinite;
   }
+.menor{
+  margin-left: 10px;
+}
   
 @keyframes pulse {
     0% {transform: scale(1);}
