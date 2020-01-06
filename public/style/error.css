@@ -49,4 +49,9 @@ p{
     animation-name: pulse;
     animation-duration: 1s;
   }
- 
+  @media only screen and (max-width: 600px){
+    
+    .menor{
+      margin-left: 80px;
+    }
+}
