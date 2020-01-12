@@ -3,5 +3,5 @@
 
 
 
-firebase.initializeApp(firebaseConfig);
+firebase.initializeApp(varConfig);
 firebase.analytics();
