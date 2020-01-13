@@ -2,17 +2,9 @@ $(() => {
 
     //$("#authFB").click(() => );
 
-    $("#btnRegistroEmail").click(() => {
-        const nombres = $('#nombreContactoReg').val();
-        const email = $('#emailContactoReg').val();
-        const password = $('#passwordReg').val();
-        const auth = new Autenticacion()
-        auth.crearCuentaEmailPass(email, password, nombres)
-    });
-
-    $("#button1").click(() => {
-        const email = $('#inputlogin').val();
-        const password = $('#inputcontra').val();
+    $("#buttonlogin").click(() => {
+        const email = $('#inputemail').val();
+        const password = $('#inputcontrasena').val();
         const auth = new Autenticacion()
         auth.autEmailPass(email, password)
         

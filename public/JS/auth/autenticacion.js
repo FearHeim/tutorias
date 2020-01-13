@@ -19,7 +19,7 @@ class Autenticacion{
                 })
 
                 const configuracion={
-                    url:'https://tutorias-1bc4f.web.app'
+                    url:'https://tutorias-1bc4f.web.app/main.html'
                 }
                 result.user.sendEmailVerification()
                 .catch(error=>{
