@@ -8,3 +8,6 @@ const varConfig = {
     appId: "1:1055952034898:web:c9f07d75f47ed9a745938b",
     measurementId: "G-ECXVL2MXKF"
 };
+
+firebase.initializeApp(varConfig);
+firebase.analytics();
