@@ -1,6 +1,15 @@
 class Autenticacion{
     autEmailPass (email, password){
+        firebase.auth().singInWithEmailAndPassword(email, password)
+            .then(result=>{
+                if(result.user.sendEmailVerified){
+                    Materialize.toast('Bienvenido ${result.user.displayname}', 5000)
 
+                }else{
+                    firebase.auth().signOut()
+                    Materialize.toast('Chale')
+                }
+            })
     }
     crearCuentaEmailPass(email, password, nombres){
         firebase.auth().createUserWithEmailAndPassword(email, password)
