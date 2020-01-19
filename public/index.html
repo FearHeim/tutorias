@@ -22,8 +22,8 @@
                     Inicio de Sesión
                 </h2>
                 <form class="login__container--form" action="">
-                    <input id="inputemail" class="inputlogin" type="text" placeholder="Correo electrónico">
-                    <input id="inputcontrasena" class="inputcontra" type="password" placeholder="Contraseña">
+                    <input id="inputemail" class="inputlogin" type="email" placeholder="Correo electrónico">
+                    <input id="inputcontrasena" class="inputcontra" type="password" placeholder="Contraseña" required>
                     <button id="buttonlogin" class="button">Iniciar sesión</button>
                     <div class="login__container--recordar">
                         <label>
@@ -48,6 +48,7 @@
         <script defer src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
         <script defer src="https://www.gstatic.com/firebasejs/7.6.2/firebase-analytics.js"></script>
         <script defer src="https://www.gstatic.com/firebasejs/7.6.2/firebase-auth.js"></script>
+        <script defer src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
         <script defer src="JS/config/ConfigFirebase.js"></script>
         <script defer src="JS/auth/autenticacion.js"></script>
         <script defer src="JS/auth/authController.js"></script>
