@@ -11,5 +11,5 @@ const varConfig = {
 
 firebase.initializeApp(varConfig);
 firebase.analytics();
-firebase.auth();
-firebase.firestore();
+const auth=firebase.auth();
+const firestore=firebase.firestore();

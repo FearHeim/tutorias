@@ -4,21 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="./style/style_login.css">
+    <title>Registro</title>
+    <link rel="shortcut icon" href="./archivos/icons8-perfil-de-gato-100.png" type="image/x-icon">
+
 </head>
 <body>
-    
-
-
-    <h1>Welcome to My Awesome App</h1>
-    <div id="firebaseui-auth-container"></div>
-    <div id="loader">Loading...</div>
+    <header class="header">
+        <a href="https://www.uleam.edu.ec">
+            <img class="header__img" src="archivos/logo-u.png" alt="">
+        </a>
+    </header>
+    <section class="login">
+        <section class="login__container">
+            <h2>
+                Registro de usuarios
+            </h2>
+            <form class="login__container--form" id="sing__container" action="">
+                <input id="mail" class="inputlogin" type="email" placeholder="Correo electrónico">
+                <input id="contrasena" class="inputcontra" type="password" placeholder="Contraseña" required>
+                <button id="buttonlogin" class="button">Registrar usuario</button>
+                <div class="login__container--recordar">
+                    
+                </div>
+            </form>
+        </section>
+    </section>
 
     <script defer src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
-        <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
-        <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
-        <script defer src="JS/config/ConfigFirebase.js"></script>
-        <script defer src="JS/auth/authController.js"></script>
-        <script src="JS/auth/login.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/7.6.2/firebase-analytics.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/7.6.2/firebase-auth.js"></script>     
+    <script defer src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script defer src="JS/config/ConfigFirebase.js"></script>
+    <script src="JS/auth/login.js"></script>
 </body>
 </html>
