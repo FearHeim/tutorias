@@ -19,9 +19,9 @@
                 <img src="archivos/icons8-perfil-de-gato-100.png" alt="Usuario">
                 <p>Usuario</p>
             </div>
-            <ul>
+            <ul id="ul_menu">
                 <li class="li1"><a href="/">Cuenta</a></li>
-                <li class="li2"><a href="/">Cerrar Sesión</a></li>
+                <li class="li2" ><a id="logout" href="/">Cerrar Sesión</a></li>
             </ul>
         </div>
     </header>
@@ -145,5 +145,12 @@
         <a href="/">Declaración de privacidad</a>
         <a href="/">Ayuda</a>
     </footer>
+
+    <script defer src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/7.6.2/firebase-analytics.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/7.6.2/firebase-auth.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script defer src="JS/config/ConfigFirebase.js"></script>
+    <script src="JS/auth/signOut.js"></script>
 </body>
 </html>
