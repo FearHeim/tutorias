@@ -10,3 +10,7 @@ loginForm.addEventListener('submit', (o)=>{
                 console.log(cred)
         }) 
 })
+
+auth.onAuthStateChanged(user=>{
+        console.log(user)
+})
