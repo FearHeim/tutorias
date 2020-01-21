@@ -10,14 +10,7 @@ singForm.addEventListener('submit', (e)=>{
         auth.createUserWithEmailAndPassword(email, password)
 } ) 
 
-let loginForm=document.querySelector('#login__container')
-loginForm.addEventListener('submit', (o)=>{
-        o.preventDefault();
-        const emailogin=loginForm['inputmail'].value;
-        const password1=loginForm['inputcontrasena'].value;
 
 
-        auth.(emailogin, password1).then(a=>{
-                location.href="main.html"
-        })
-})
+
+ 
