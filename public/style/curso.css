@@ -88,6 +88,45 @@
     height: 50px;
 }
 
+.div1 a{
+    color: white;
+    cursor: pointer;
+    padding-top: -15px;
+    font-size: 15px;
+    padding-left: 70px;
+    text-decoration: none;
+    
+}
+.div1 a:hover{
+    text-decoration: underline;
+}
+
+.div2 a{
+    color: white;
+    cursor: pointer;
+    padding-top: -15px;
+    font-size: 15px;
+    padding-left: 70px;
+    text-decoration: none;
+    
+}
+.div2 a:hover{
+    text-decoration: underline;
+}
+
+.div3 a{
+    color: white;
+    cursor: pointer;
+    padding-top: 10px;
+    font-size: 20px;
+    padding-left: 70px;
+    text-decoration: none;
+    
+}
+.div3 a:hover{
+    text-decoration: underline;
+}
+
 
 .curso__main__principal{
     white-space: wrap;
@@ -102,12 +141,21 @@
     border-radius: 25px;
     color: white;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bold;
     font-family: 'Ubuntu', sans-serif;
     height: 50px;
     letter-spacing: 1px;
     margin: 10px 0;
+
+}
+
+.a__but{
+    text-decoration: none;
+    color: white;
+   
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .curso__main__main{
     color: white;
